@@ -1,0 +1,12 @@
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\ResolveAssemblyReference.cache
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.LogonForm.resources
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.Properties.Resources.resources
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.csproj.GenerateResource.Cache
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\bin\Debug\AmxMobile.WinMo.SixBookmarks.exe
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\bin\Debug\AmxMobile.WinMo.SixBookmarks.pdb
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.exe
+w:\code\book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.pdb
+w:\Code\Book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\bin\Debug\System.Data.SqlServerCe.dll
+w:\Code\Book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.NavigatorForm.resources
+w:\Code\Book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.ConfigureForm.resources
+w:\Code\Book\AmxMobile.WinMo.SixBookmarks\1.0\AmxMobile.WinMo.SixBookmarks\AmxMobile.WinMo.SixBookmarks\obj\Debug\AmxMobile.WinMo.SixBookmarks.ConfigureSingletonForm.resources

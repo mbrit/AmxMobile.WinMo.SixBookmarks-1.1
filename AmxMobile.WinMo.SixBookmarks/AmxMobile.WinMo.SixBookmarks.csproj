@@ -1,0 +1,164 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6982BC7-C970-419B-A98B-63423C27F8C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmxMobile.WinMo.SixBookmarks</RootNamespace>
+    <AssemblyName>AmxMobile.WinMo.SixBookmarks</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <DeployDirSuffix>AmxMobile.WinMo.SixBookmarks</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureForm.Designer.cs">
+      <DependentUpon>ConfigureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigureSingletonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigureSingletonForm.Designer.cs">
+      <DependentUpon>ConfigureSingletonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\EntityChangeProcessor.cs" />
+    <Compile Include="Data\ISqlStatementSource.cs" />
+    <Compile Include="Data\SqlCeHelper.cs" />
+    <Compile Include="Data\SqlConstraint.cs" />
+    <Compile Include="Data\SqlFilter.cs" />
+    <Compile Include="Data\SqlStatement.cs" />
+    <Compile Include="Data\SqlStatementParameter.cs" />
+    <Compile Include="Data\Sync.cs" />
+    <Compile Include="Data\SyncWorkItem.cs" />
+    <Compile Include="Entities\Bookmark.cs" />
+    <Compile Include="Entities\DataType.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\EntityField.cs" />
+    <Compile Include="Entities\EntityItem.cs" />
+    <Compile Include="Entities\EntityType.cs" />
+    <Compile Include="Entities\FieldFlags.cs" />
+    <Compile Include="Entities\SetReason.cs" />
+    <Compile Include="LogonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogonForm.Designer.cs">
+      <DependentUpon>LogonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigatorForm.Designer.cs">
+      <DependentUpon>NavigatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Alert.cs" />
+    <Compile Include="Objects\DownloadSettings.cs" />
+    <Compile Include="Objects\ErrorBucket.cs" />
+    <Compile Include="Objects\Failure.cs" />
+    <Compile Include="Objects\HttpHelper.cs" />
+    <Compile Include="Objects\IContextSource.cs" />
+    <Compile Include="Objects\SimpleXmlPropertyBag.cs" />
+    <Compile Include="Objects\SixBookmarksRuntime.cs" />
+    <Compile Include="Objects\XmlDataType.cs" />
+    <Compile Include="Objects\XmlHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConfigureForm.resx">
+      <DependentUpon>ConfigureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigureSingletonForm.resx">
+      <DependentUpon>ConfigureSingletonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogonForm.resx">
+      <DependentUpon>LogonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigatorForm.resx">
+      <DependentUpon>NavigatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ApiService.cs" />
+    <Compile Include="Services\BookmarksService.cs" />
+    <Compile Include="Services\LogonResponse.cs" />
+    <Compile Include="Services\LogonResult.cs" />
+    <Compile Include="Services\ODataOperation.cs" />
+    <Compile Include="Services\ODataServiceProxy.cs" />
+    <Compile Include="Services\RestRequestArgs.cs" />
+    <Compile Include="Services\RestServiceProxy.cs" />
+    <Compile Include="Services\ServiceProxy.cs" />
+    <Compile Include="Services\UsersService.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
